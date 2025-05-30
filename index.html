@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login/Registeration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="btn-box">
+                <div id="btn"></div>
+                <button type="button" class="t-btn" onclick="login()">Log In</button>
+                <button type="button" class="t-btn" onclick="register()">Register</button>
+            </div>
+            <form id="login" class="input-g">
+                <input type="text" class="input-f" placeholder="user Id" required>
+                <input type="password" class="input-f" placeholder="enter password" required>
+                <input type="checkbox" class="check-box"><span>Remember password</span>
+                <button type="submit" class="s-btn">Log In</button>
+            </form>
+            <form id="register" class="input-g">
+                <input type="text" class="input-f" placeholder="Full Name " required>
+                <input type="email" class="input-f" placeholder="Email Id " required>
+                <input type="password" class="input-f" placeholder="enter password" required>
+                <input type="checkbox" class="check-box"><span>Remember password</span>
+                <button type="submit" class="s-btn">Register</button>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+        <footer style="background: linear-gradient(to right, #43416f, #d3c8b6); color: rgb(217, 211, 211); padding: 20px 0; text-align: center; position: relative; bottom: 0; width: 100%;">
+    <p >&copy; Code with Maryam Fatima</p>
+    </footer>
+</body>
+</html>
